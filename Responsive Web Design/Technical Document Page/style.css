@@ -1,0 +1,51 @@
+/* Adjust the styling based on your preference */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#navbar header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar li {
+  margin-bottom: 10px;
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+.main-section header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
