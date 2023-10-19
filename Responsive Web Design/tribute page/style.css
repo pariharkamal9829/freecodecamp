@@ -1,0 +1,26 @@
+#main {
+  text-align: center;
+}
+
+#title {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+#img-div {
+  margin-top: 20px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#img-caption {
+  margin-top: 10px;
+}
+
+#tribute-info {
+  margin-top: 20px;
+}
