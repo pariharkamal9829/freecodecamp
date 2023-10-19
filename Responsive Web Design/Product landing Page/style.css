@@ -1,0 +1,36 @@
+/* Navbar styles */
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  z-index: 9999;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  /* CSS styles for smaller screens */
+}
+
+/* Flexbox example */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form input {
+  margin-bottom: 10px;
+}
